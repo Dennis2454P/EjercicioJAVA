@@ -1,4 +1,5 @@
-package pe.edu.certus.servicio;
+
+package pe.edu.certus;
 
 import javax.ws.rs.ApplicationPath;
 
@@ -9,7 +10,7 @@ import org.springframework.stereotype.Component;
 @ApplicationPath("/api")
 public class servicio2AppConfig extends ResourceConfig {
 	public servicio2AppConfig() {
-		packages("pe.edu.certus.recurso");
+		packages("pe.edu.certus.servicio");
 		
 	}
 
